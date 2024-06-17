@@ -1,7 +1,8 @@
-import Service from "@/app/ui/admin/service/Service.jsx";
+import Service from "@/app/ui/client/service/Service.jsx";
 import { categorieItems } from "@/lib/utils.js";
+import React from "react";
 
-const Servies = ({ params }) => {
+const page = ({ params }) => {
   const { id } = params;
 
   const cat = categorieItems.find((item) => item.id === parseInt(id));
@@ -11,11 +12,10 @@ const Servies = ({ params }) => {
       <h3 className="text-2xl p-3 capitalize font-bold text-textPrimary">
         {cat.name}
       </h3>
-      <div className="p-3 bg-bgSecondary rounded-lg">
-        <Service cat={cat} />
-      </div>
+
+      <Service />
     </div>
   );
 };
 
-export default Servies;
+export default page;

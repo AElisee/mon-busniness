@@ -5,7 +5,6 @@ export const categorieItems = [
     link: "commerce de détail",
     services: [
       "Boutiques de vêtements",
-      "Boutiques de vêtements",
       "Magasins d'alimentation générale",
       "Librairies et papeteries",
       "Pharmacies",
@@ -125,5 +124,72 @@ export const categorieItems = [
       " Services de nettoyage",
       "Agences de voyage",
     ],
+  },
+];
+
+export const businessItems = [
+  {
+    name: "Restaurant le midi",
+    address: {
+      town: "Abidjan",
+      position: "Cocody",
+    },
+    email: "lemidi@gmail.com",
+    phone: "07 45 78 45 41",
+    network: {
+      facebook: "",
+      instagram: "",
+      tiktok: "",
+    },
+    description: "description",
+    service: "restaurant Africain",
+  },
+  {
+    name: "Chez Medard",
+    address: {
+      town: "Abidjan",
+      position: "Bingerville",
+    },
+    email: "medard@gmail.com",
+    phone: "07 45 47 12 45",
+    network: {
+      facebook: "",
+      instagram: "",
+      tiktok: "",
+    },
+    description: "description",
+    service: "Café",
+  },
+  {
+    name: "manou Fashion",
+    address: {
+      town: "Abidjan",
+      position: "Adjamé",
+    },
+    email: "manou@gmail.com",
+    phone: "07 45 47 12 45",
+    network: {
+      facebook: "",
+      instagram: "",
+      tiktok: "",
+    },
+    description: "description",
+    service: "Boutique de vêtements",
+  },
+  {
+    name: "Aline",
+    address: {
+      town: "Abidjan",
+      position: "Yopougon",
+    },
+    email: "aline@gmail.com",
+    phone: "07 45 47 12 45",
+    network: {
+      facebook: "",
+      instagram: "",
+      tiktok: "",
+    },
+    description: "description",
+    service: "Salons de coiffure",
   },
 ];

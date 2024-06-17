@@ -2,7 +2,6 @@ import React from "react";
 import Footer from "../ui/Footer.jsx";
 import Navbar from "../ui/admin/navbar/Navbar.jsx";
 import AdmainSidebar from "../ui/admin/sidebar/Sidebar.jsx";
- 
 
 const layout = ({ children }) => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../logo/Logo.jsx";
+import Logo from "../../logo/Logo.jsx";
 import Link from "next/link.js";
 import { BiCategory } from "react-icons/bi";
 import MenuLinks from "./MenuLinks.jsx";
@@ -15,8 +15,8 @@ const Sidebar = () => {
           Catégories
         </h2>
         <ul className="pl-2 flex flex-col gap-2 pt-5">
-          {categorieItems.map((link, index) => (
-            <MenuLinks key={index} link={link} />
+          {categorieItems.map((cat, index) => (
+            <MenuLinks key={index} cat={cat} />
           ))}
         </ul>
       </div>
